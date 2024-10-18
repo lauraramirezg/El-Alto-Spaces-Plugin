@@ -9,7 +9,7 @@ The impulse responses were obtained by doing measurements of every room using th
 - Two filters with a frequency knob adjuster
 - Dry/wet mix
 
-![My Image](downloads/ElAltoImage.png)
+![UIElAlto](Resources/ElAltoImg.png)
 
 
 ## Installation Instructions
