@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Y1KwSe" name="EL ALTO SPACES" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" companyName="EL ALTO"
+              pluginFormats="buildAU,buildStandalone,buildVST3" pluginVST3Category="Fx">
+  <MAINGROUP id="gKJ5Lv" name="EL ALTO SPACES">
+    <GROUP id="{CF4FA23F-3967-0943-C140-D808A7EC866F}" name="Source">
+      <GROUP id="{B4AB4FB6-ED8F-46DA-D9D6-5B3D4580FCB0}" name="Component">
+        <FILE id="jmATMS" name="gradientLevelMeter.h" compile="0" resource="0"
+              file="Source/gradientLevelMeter.h"/>
+        <FILE id="UwAbiL" name="levelMeter.h" compile="0" resource="0" file="Source/levelMeter.h"/>
+      </GROUP>
+      <GROUP id="{1CC46573-474F-14F0-75FC-6C6A774387C2}" name="Assets">
+        <FILE id="TUW710" name="elaltoestudio.jpeg" compile="0" resource="1"
+              file="Source/Assets/elaltoestudio.jpeg"/>
+        <GROUP id="{17EC30CE-8106-08E6-2C46-FD46DF0EF0DC}" name="IRs">
+          <FILE id="TzdR0z" name="IR_NS10.wav" compile="0" resource="1" file="Source/Assets/IRs/IR_NS10.wav"/>
+          <FILE id="lU6sbD" name="IR_OCEAN.wav" compile="0" resource="1" file="Source/Assets/IRs/IR_OCEAN.wav"/>
+          <FILE id="H0XbEN" name="IR_1_NS10.wav" compile="0" resource="1" file="Source/Assets/IRs/IR_1_NS10.wav"/>
+          <FILE id="xOOAdB" name="IR_1_OCEAN.wav" compile="0" resource="1" file="Source/Assets/IRs/IR_1_OCEAN.wav"/>
+          <FILE id="uJyYNk" name="IR_2_NS10.wav" compile="0" resource="1" file="Source/Assets/IRs/IR_2_NS10.wav"/>
+          <FILE id="wtH7hA" name="IR_2_OCEAN.wav" compile="0" resource="1" file="Source/Assets/IRs/IR_2_OCEAN.wav"/>
+          <FILE id="PAUpOz" name="IR_BovaLive_Corner.wav" compile="0" resource="1"
+                file="Source/Assets/IRs/IR_BovaLive_Corner.wav"/>
+          <FILE id="gR6O1v" name="IR_BovaLive.wav" compile="0" resource="1" file="Source/Assets/IRs/IR_BovaLive.wav"/>
+          <FILE id="kpsjq7" name="IR_DBXLive_Corner.wav" compile="0" resource="1"
+                file="Source/Assets/IRs/IR_DBXLive_Corner.wav"/>
+          <FILE id="WQKagc" name="IR_DBXLive.wav" compile="0" resource="1" file="Source/Assets/IRs/IR_DBXLive.wav"/>
+          <FILE id="DqL55Q" name="IR_Pasillo_Entrada.wav" compile="0" resource="1"
+                file="Source/Assets/IRs/IR_Pasillo_Entrada.wav"/>
+          <FILE id="I6LamX" name="IR_Pasillo_Escaleras.wav" compile="0" resource="1"
+                file="Source/Assets/IRs/IR_Pasillo_Escaleras.wav"/>
+        </GROUP>
+        <FILE id="hlJMIl" name="console.jpeg" compile="0" resource="1" file="Source/Assets/console.jpeg"/>
+        <FILE id="TkMvwS" name="console2.jpeg" compile="0" resource="1" file="Source/Assets/console2.jpeg"/>
+        <FILE id="PuUPDX" name="gear.jpeg" compile="0" resource="1" file="Source/Assets/gear.jpeg"/>
+        <FILE id="AvwRig" name="pasillo.jpg" compile="0" resource="1" file="Source/Assets/pasillo.jpg"/>
+        <FILE id="ZZNUEP" name="controlRoom.jpeg" compile="0" resource="1"
+              file="Source/Assets/controlRoom.jpeg"/>
+        <FILE id="DDGfKN" name="controlRoom2.jpeg" compile="0" resource="1"
+              file="Source/Assets/controlRoom2.jpeg"/>
+        <FILE id="sgCe0W" name="liveRoom2.jpeg" compile="0" resource="1" file="Source/Assets/liveRoom2.jpeg"/>
+        <FILE id="l3ghhw" name="logo-el-alto-estudio-horizontal.svg" compile="0"
+              resource="1" file="Source/Assets/logo-el-alto-estudio-horizontal.svg"/>
+        <FILE id="VfyFqI" name="gradient3_grainy.png" compile="0" resource="1"
+              file="Source/Assets/gradient3_grainy.png"/>
+        <FILE id="xbMmRq" name="liveRoom.jpeg" compile="0" resource="1" file="Source/Assets/liveRoom.jpeg"/>
+      </GROUP>
+      <FILE id="U1O583" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="AdCiio" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="meIbMP" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="tgfwHX" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="OjpCng" name="lookAndFeelELALTO.cpp" compile="1" resource="0"
+            file="Source/lookAndFeelELALTO.cpp"/>
+      <FILE id="tSULsQ" name="lookAndFeelELALTO.h" compile="0" resource="0"
+            file="Source/lookAndFeelELALTO.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="EL ALTO SPACES" optimisation="3"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="EL ALTO SPACES"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../Downloads/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
