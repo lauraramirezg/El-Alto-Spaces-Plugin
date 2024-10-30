@@ -13,7 +13,7 @@ The impulse responses were obtained by doing measurements of every room using th
 
 
 ## Installation Instructions
-### macOC
+### macOS
 - Select the IR folder and move it to the desktop folder
 - Run the installer for macOS
 - Load on the DAW of preference
